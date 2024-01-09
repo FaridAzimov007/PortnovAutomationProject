@@ -120,7 +120,7 @@ public class Some {
             }
 
             // Вывод общего количества повторений и запись в файл
-            String totalResult = "Общее количество повторений: " + totalDuplicates + "\n";
+            String totalResult = "Общее количество повторений : " + totalDuplicates + "\n";
             System.out.print(totalResult);    // Вывод в консоль
             writer.write(totalResult);       // Запись в файл
         } catch (IOException e) {
